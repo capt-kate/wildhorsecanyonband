@@ -1,0 +1,22 @@
+﻿/*<meta />*/
+
+/* MadCap-Branding templates:Templates/Projects/Soledad.flprj/ */
+
+:root
+{
+	--Darkest: #000000;
+	--Light: #d3d3d3;
+	--Lighter: #ececec;
+	--Lightest: #ffffff;
+	/*--HeroImage: url('../Images/wild-horse-merged.png');*/
+	--FontFamily: Arial, Avenir, Myriad;
+	--Primary: #292928;
+	--LogoImage: url('../Images/Logo.png');
+	--HeroImage: url('../Images/Hero-Image.jpg');
+	--Dark: #404040;
+	--Footer: linear-gradient(#004863, black, black);
+	--Darker: rgba(0, 0, 0, 0.85);
+	--Medium: #b1b1b1;
+	--Secondary: #19b9f3;
+	--Tertiary: #525252;
+}

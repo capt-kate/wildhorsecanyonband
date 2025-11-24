@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../Stylesheets/StylesForHomePage.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="footer">
+            <MadCap:bodyProxy style="text-align: center;" />
+            <div class="footer center">
+                <div class="home-master-page-footer">
+                    <div>
+                        <p>
+                            <img src="../Images/Assets/Icons/SocialMedia/AddSM-white.png" />
+                        </p>
+                        <p>FOLLOW&#160;US</p>
+                        <table style="width: 100%;">
+                            <tbody>
+                                <tr>
+                                    <td><a href="[%=General.Facebook%]" target="_blank"><img src="../Images/Assets/Icons/SocialMedia/FB-white.png" /></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <p>
+                            <img src="../Images/logo.png" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

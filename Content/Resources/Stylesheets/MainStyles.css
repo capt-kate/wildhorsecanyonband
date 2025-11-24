@@ -1,0 +1,170 @@
+﻿/*<meta />*/
+
+/*==Topic General Styles==*/
+
+body
+{
+	color: var(--Dark);
+	font-family: Arial, Avenir, Myriad;
+	line-height: 1.7em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: var(--HeroImage);
+	background-position: center;
+}
+
+
+h1
+{
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+}
+
+h2
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 20px;
+}
+
+h3
+{
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 16px;
+}
+
+h4
+{
+	
+}
+
+li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+img	/*Setting max-width: 100%; property makes images always fit the width of the container*/
+{
+	max-width: 100%;
+}
+
+img.thumbnail
+{
+	mc-thumbnail: popup;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: var(--Darkest);
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: var(--Secondary);
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	mc-breadcrumbs-prefix: 'You are here: ';
+}
+
+MadCap|xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+MadCap|xref:hover
+{
+	color: var(--Secondary);
+}
+
+MadCap|dropDown
+{
+	mc-open-image: url('../Images/Assets/Icons/Arrows/arrow-down-gray.png');
+	mc-closed-image: url('../Images/Assets/Icons/Arrows/arrow-right-gray.png');
+}
+
+MadCap|dropDownHotspot
+{
+	color: var(--Secondary);
+	font-weight: bold;
+}
+
+/*==Master Page Topic Layout==*/
+
+.main-section /*This style applies the grey background. This HTML element is not on a master page, it is used at compile time.*/
+{
+	background: var(--Lighter);
+}
+
+nav.title-bar /*Adds transparency to the top navigation bar*/
+{
+	opacity: 0.8;
+}
+	
+div.content-container /*Wraps the content on the masterpage and provides the white background behind topics.*/
+{
+	margin-right: 0;
+	background-color: #FFF;
+	padding: 25px;
+	min-height: 95vh;
+}
+
+div.side-content /*Container for Menu proxy*/
+{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 33.33%;
+}
+
+.height-container /*Container for main content below the header*/ 
+{
+	position: inherit;
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+
+@media tablet
+{
+
+}
+
+@media mobile
+{
+	.main-section > .outer-row	/* Removes the padding around the topic container in mobile */
+	{
+		padding: 0;
+	}
+
+}
