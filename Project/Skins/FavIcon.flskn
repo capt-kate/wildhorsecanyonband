@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="6"
+  SkinType="Component"
+  Comment="HTML5 Favicon skin"
+  ComponentType="Favicon">
+  <Stylesheet>
+    <Resources>
+      <Resource
+        Name="favicon.png">H4sIAAAAAAAEAAG3AUj+iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH6QsYAzkK8/V0dgAAAVZJREFUOI211D1IVWEYB/CfpJK4GEGLS0uXbHcQSmuTtjvUDZsSIe5qQzq4RYMQOASBqzk0RhC6RTVF6OpHiBLVoBej6weWchve56LDHbzH47Ocw/Oe8+N/nvecwznVhZytu3HcygO8glGsooa3eaC9qAa4h0n05AE/wkbAj/MA4T528DrO2/JAn+ELPuJeHiCMYR676M8CdOClNMPp6A2jgu+4nTXZG2lTVnAjkv7De2fYqGuB1vAAL/AJy3iaFYURHGINv/AOByhlBQsoY1sawUSkXsQTdONmM2BXpKo//g8UcRkforcQ6f+g9bTw87h5H3carA9gPa6ZaSbxXNz0UxrFrRNrJWkU+3iF9mbgqYCrGJS+pgKuRr+CvmbAel3HkeNxzEojGY9eMQtar3Igf6WN+oxN/MbFs8AwhG+O344aHmaBWhr0OqX/wCV8xVKmiOdV/wEV+Vb85VMZagAAAABJRU5ErkJggmpBf/23AQAA</Resource>
+    </Resources>
+  </Stylesheet>
+  <Master
+    Image="favicon.png" />
+  <Browser>
+    <SmallFavicon
+      Image="(generated)"
+      SizePx="16 px" />
+    <MediumFavicon
+      Image="(none)"
+      SizePx="" />
+    <LargeFavicon
+      Image="(none)"
+      SizePx="" />
+  </Browser>
+  <ShortcutIcon
+    Image="(none)" />
+  <Touch>
+    <TouchIcon
+      Image="(none)"
+      SizePx="" />
+  </Touch>
+  <Windows>
+    <MicrosoftSmallTile
+      Image="(none)" />
+    <MicrosoftMediumTile
+      Image="(none)" />
+    <MicrosoftWideTile
+      Image="(none)" />
+    <MicrosoftLargeTile
+      Image="(none)" />
+  </Windows>
+  <Strings />
+</CatapultSkin>

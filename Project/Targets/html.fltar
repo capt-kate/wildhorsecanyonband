@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  ShowMadCapBacklink="false"
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/Home.htm"
+  MasterToc="/Project/TOCs/whcb_toc.fltoc"
+  BrandingStylesheet="/Content/Resources/Branding/Branding.css"
+  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
+  MasterStylesheetOverride="true"
+  OutputFile="index"
+  DisableAutoSync="true"
+  IncludeCSHRuntime="false"
+  MasterPage="/Content/Resources/TemplatePages/HomePage.flmsp"
+  Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+  MenuSkin="/Project/Skins/SideMenu.flskn"
+  TopicToolbarSkin="/Project/Skins/TopicToolBar.flskn"
+  SearchBarSkin="/Project/Skins/SearchHome.flskn"
+  FaviconSkin="/Project/Skins/FavIcon.flskn"
+  MoveOutputContentToRoot="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
+  <PDF
+    Tagged="true"
+    TitleBar="DocumentTitle" />
+  <Variables>
+    <Variable
+      Name="General/CityStateZip">San Jose, CA</Variable>
+    <Variable
+      Name="General/CompanyName">Wild Horse Canyon Band</Variable>
+    <Variable
+      Name="General/Email">info@wildhorsecanyonband.com</Variable>
+  </Variables>
+</CatapultTarget>
